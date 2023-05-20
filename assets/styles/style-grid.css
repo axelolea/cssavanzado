@@ -1,0 +1,79 @@
+.grid-container
+{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.item
+{
+    border: 1px solid black;
+}
+
+.container-excel
+{
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+        "nav nav nav nav"
+        "img img pa1 pa2"
+        "img img btn1 btn2"
+        "fo fo fo fo";
+    border: 1px solid black;
+}
+
+.container-excel div
+{
+    padding: 50px;
+    border: 1px solid black;
+}
+
+.navbar
+{
+    grid-area: nav;
+    background-color: rgb(129, 236, 255);
+}
+
+.images
+{
+    grid-area: img;
+    background-color: rgb(255, 255, 151);
+}
+
+.paragraph1,
+.paragraph2
+{
+    background-color: rgb(255, 144, 144);
+}
+
+.paragraph1
+{
+    grid-area: pa1;
+}
+
+.paragraph2
+{
+    grid-area: pa2;
+}
+
+.button1
+{
+    grid-area: btn1;
+}
+
+.button2
+{
+    grid-area: btn2;
+}
+
+.button1,
+.button2
+{
+    background-color: rgb(208, 255, 137);
+}
+
+.footer
+{
+    grid-area: fo;
+    background-color: rgb(196, 133, 255);
+}
