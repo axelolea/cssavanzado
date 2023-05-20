@@ -1,0 +1,24 @@
+body
+{
+    text-align: center;
+}
+
+
+.container
+
+{
+    margin: 50px;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+.display
+{
+    border: 1px solid red;
+}
+
+span
+{
+    background-color: blueviolet;
+    color: white;
+}
