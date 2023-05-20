@@ -1,0 +1,23 @@
+body
+{
+    text-align: center;
+}
+
+.container
+{
+    border: 1px solid black;
+}
+
+.father-container
+{
+    margin: 25px;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+.position
+{
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
