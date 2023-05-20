@@ -1,0 +1,24 @@
+body
+{
+    text-align: center;
+    color: red;
+}
+
+@media (max-width: 500px) {
+    body
+    {
+        color: blue;
+    }
+
+    .paragraph
+    {
+        display: none;
+    }
+}
+
+@media (orientation: landscape) {
+    body
+    {
+        color: green;
+    }
+}
